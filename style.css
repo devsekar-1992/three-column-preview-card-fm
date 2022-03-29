@@ -82,33 +82,23 @@ button {
   border-bottom-right-radius: 10px;
 }
 
+button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--white-trans);
+  color: white;
+}
 .orange {
   color: var(--orange-bright);
-}
-.orange:hover{
-  cursor: pointer;
-  background-color: var(--orange-bright);
-  border: 1px solid white;
-  color: white;
 }
 .cyan-dark {
   color: var(--cyan-dark);
 }
-.cyan-dark:hover{
-  cursor: pointer;
-  background-color: var(--cyan-dark);
-  border: 1px solid white;
-  color: white;
-}
+
 .cyan-v-dark {
   color: var(--cyan-v-dark);
 }
-.cyan-v-dark:hover {
-  cursor: pointer;
-  background-color: var(--cyan-v-dark);
-  border: 1px solid white;
-  color: white;
-}
+
 @media screen and (min-width: 960px) {
   h2 {
     text-transform: uppercase;
